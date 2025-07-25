@@ -50,6 +50,6 @@ tableData:
       - ["Poids (g)", "115"]
       - ["Matériau", "Plastique PLA"]
 blueprints:
-  first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"
+  first: "@/images/NexGenBluePrint1.png"
+  second: "@/images/NexGenBluePrint2.png"  
 ---
