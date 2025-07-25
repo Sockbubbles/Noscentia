@@ -50,6 +50,6 @@ tableData:
       - ["Weight (g)", "70"]
       - ["Material", "PLA Plastic"] 
 blueprints:
-  first: "@/images/MiniBlueprint1.png"
-  second: "@/images/Miniblueprint2.png"   
+  first: "@/images/MiniBluePrint1.png"
+  second: "@/images/MinibluePrint2.png"   
 ---
