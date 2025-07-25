@@ -3,12 +3,13 @@ import ogImageSrc from "@images/social.png";
 
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Noscentia",
+  tagline: "Precision Tools for Modern Weaving",
+description: "Noscentia delivers high-performance 3D-printed weaving tools engineered for precision and ease. Discover our shuttle lineup and contact our team for tailored solutions.",
+description_short: "Premium 3D-printed weaving tools designed for performance, durability, and compatibility.",
+
+  url: "https://noscentia.com",
+  author: "N/A",
 };
 
 export const SEO = {
@@ -35,9 +36,10 @@ export const OG = {
   locale: "en_US",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
-  image: ogImageSrc,
+  title: `${SITE.title}: Premium Weaving Tools & Innovation`,
+description: "Elevate your weaving with Noscentia’s high-performance 3D-printed tools. Designed for modern weavers, our shuttles combine lightweight precision, universal compatibility, and intuitive design. Discover weaving tools engineered for excellence.",
+
+image: ogImageSrc,
 };
 
 export const partnersData = [
