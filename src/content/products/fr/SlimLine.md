@@ -6,8 +6,8 @@ main:
   id: 2
   content: |
     Découvrez la navette de tissage Slim de Noscentia — l’outil idéal pour un tissage fluide et précis. Cette navette ultra-mince assure une manipulation sans effort et est compatible avec toutes les bobines standards. Son loquet magnétique sécurisé permet un chargement rapide. Bien qu’elle ne soit pas réversible, sa conception compacte offre une excellente prise en main pour les travaux détaillés.
-  imgCard: "@/images/slimline.png"
-  imgMain: "@/images/slimline.png"
+  imgCard: "@/images/SlimLine.png"
+  imgMain: "@/images/SlimLine.png"
   imgAlt: "Boîtes de présentation avec assortiment de vis"
 tabs:
   - id: "tabs-with-card-item-1"
