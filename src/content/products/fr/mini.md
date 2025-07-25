@@ -6,8 +6,8 @@ main:
   id: 1
   content: |
     Découvrez la navette Mini de Noscentia — l’outil idéal pour un tissage fluide et précis sur de petits métiers à tisser. Fabriquée avec les mêmes matériaux de haute qualité que nos navettes pleine grandeur, elle est conçue spécialement pour les petites bobines et les projets délicats.
-  imgCard: "@/images/mini.png"
-  imgMain: "@/images/mini.png"
+  imgCard: "@/images/Mini.png"
+  imgMain: "@/images/Mini.png"
   imgAlt: "Petite navette de tissage pour petits métiers"
 tabs:
   - id: "tabs-with-card-item-1"

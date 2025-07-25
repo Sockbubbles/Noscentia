@@ -6,8 +6,8 @@ main:
   id: 1
   content: |
     Introducing the Noscentia Mini Shuttle – the perfect tool for smooth and precise weaving on small looms. Crafted with the same high-quality materials as our full-size shuttles, it is designed specifically for small bobbins and delicate projects.
-  imgCard: "@/images/mini.png"
-  imgMain: "@/images/mini.png"
+  imgCard: "@/images/Mini.png"
+  imgMain: "@/images/Mini.png"
   imgAlt: "Mini weaving shuttle for small looms"
 tabs:
   - id: "tabs-with-card-item-1"
