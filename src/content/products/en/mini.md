@@ -51,5 +51,5 @@ tableData:
       - ["Material", "PLA Plastic"] 
 blueprints:
   first: "@/images/MiniBluePrint1.png"
-  second: "@/images/MinibluePrint2.png"   
+  second: "@/images/MiniBluePrint2.png"   
 ---
