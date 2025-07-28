@@ -1,7 +1,7 @@
 ---
 title: "La Mini"
 description: "Petite navette de tissage"
-price: "(35$)"
+price: "[35$]"
 main:
   id: 1
   content: |

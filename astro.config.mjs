@@ -27,7 +27,7 @@ export default defineConfig({
   integrations: [
     sitemap({
       i18n: {
-        defaultLocale: "en", // All urls that don't contain language prefix will be treated as default locale
+        defaultLocale: "fr", // All urls that don't contain language prefix will be treated as default locale
         locales: {
           en: "en", // The `defaultLocale` value must present in `locales` keys
           fr: "fr",

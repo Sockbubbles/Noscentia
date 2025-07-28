@@ -1,7 +1,7 @@
 ---
 title: "The Mini"
 description: "Small Weaving Shuttle"
-price: "(35$)"
+price: "[35$]"
 main:
   id: 1
   content: |

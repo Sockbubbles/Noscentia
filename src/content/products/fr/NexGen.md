@@ -1,7 +1,7 @@
 ---
 title: "NexGen"
 description: "Navette de tissage réversible"
-price: "(35$)"
+price: "[40$]"
 main:
   id: 3
   content: |

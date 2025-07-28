@@ -1,7 +1,7 @@
 ---
 title: "SlimLine"
 description: "Navette de tissage mince"
-price: "(35$)"
+price: "[40$]"
 main:
   id: 2
   content: |
