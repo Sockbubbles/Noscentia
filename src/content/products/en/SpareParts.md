@@ -1,7 +1,7 @@
 ---
 title: "Spare Parts"
 description: "Spare Parts"
-price: "(3-10$)"
+price: "[3-10$]"
 main:
   id: 3
   content: |
