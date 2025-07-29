@@ -14,7 +14,7 @@ export default defineConfig({
     domains: ["images.unsplash.com"],
   },
   // i18n: {
-  //   defaultLocale: "en",
+  //   defaultLocale: "fr",
   //   locales: ["en", "fr"],
   //   fallback: {
   //     fr: "en",
