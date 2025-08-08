@@ -20,7 +20,7 @@ export async function getStaticPaths() {
     id.startsWith("en/")
   );
   return productEntries.map((product) => {
-    const idWithoutLang = product.id.replace(/^en\//, ""); // Remove the "fr/" prefix
+    const idWithoutLang = product.id.replace(/^en\//, ""); // Remove the "en/" prefix
     return {
       params: { id: idWithoutLang},
       props: { product },
@@ -32,25 +32,25 @@ const { product } = Astro.props;
 
 const pageTitle: string = `${product.data.title} | ${SITE.title}`;
 const metaDescription = product.data.description;
-const ogTitle = `${product.data.title} | Outils Matériels | ScrewFast`;
+const ogTitle = `${product.data.title} | Noscentia Products`;
 ---
 
 <MainLayout
   title={pageTitle}
-  lang="fr"
+  lang="en"
   customDescription={metaDescription}
   customOgTitle={ogTitle}
   structuredData={{
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": `https://noscentia.com/fr/products/${product.data.title.toLowerCase().replace(/\s+/g, "-")}`,
+    "@id": `https://noscentia.com/en/products/${product.data.title.toLowerCase().replace(/\s+/g, "-")}`,
     name: product.data.title,
     description: product.data.description,
     brand: {
       "@type": "Brand",
       name: "Noscentia",
     },
-    inLanguage: "fr",
+    inLanguage: "en",
   }}
 >
   <div id="overlay" class="fixed inset-0 bg-neutral-200 dark:bg-neutral-800">
