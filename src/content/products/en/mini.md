@@ -35,10 +35,10 @@ descriptionList:
 specificationsLeft:
   - title: "Material Composition"
     subTitle: "3D-printed with durable, lightweight material for optimal handling and reduced fatigue."
-  - title: "Operation"
-    subTitle: "Engineered for smooth gliding and control during intricate weaving tasks."
+  - title: "Mecanism"
+    subTitle: "Magnetic latch ensures your bobbins are always secure"
   - title: "Reversibility"
-    subTitle: "Non-reversible design ensures correct orientation and ergonomic use."
+    subTitle: "Reversible design allows flexible orientation and ergonomic use."
   - title: "Size"
     subTitle: "Ultra-slim and compact, ideal for detailed weaving on smaller looms."
 tableData:

@@ -35,10 +35,10 @@ descriptionList:
 specificationsLeft:
   - title: "Composition du matériau"
     subTitle: "Imprimée en 3D avec un matériau léger et durable pour une manipulation optimale et une fatigue réduite."
-  - title: "Fonctionnement"
-    subTitle: "Conçue pour glisser en douceur et offrir un contrôle précis lors des tissages complexes."
+  - title: "Mecanisme"
+    subTitle: "Le loquet magnétique garantit que vos bobbine restent toujours bien en place."
   - title: "Réversibilité"
-    subTitle: "Conception non réversible assurant une orientation correcte et une utilisation ergonomique."
+    subTitle: "Conception réversible offrant une orientation flexible et une utilisation ergonomique."
   - title: "Dimensions"
     subTitle: "Ultra-mince et compacte, idéale pour les travaux de précision sur petits métiers."
 tableData:
