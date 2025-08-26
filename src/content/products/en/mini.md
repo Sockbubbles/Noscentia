@@ -5,7 +5,7 @@ price: "[35$]"
 main:
   id: 1
   content: |
-    Introducing the Noscentia Mini Shuttle – the perfect tool for smooth and precise weaving on small looms. Crafted with the same high-quality materials as our full-size shuttles, it is designed specifically for small bobbins and delicate projects.
+    Introducing the Noscentia Mini Shuttle – the perfect tool for smooth and precise weaving on small looms. Crafted with the same high-quality materials as our full-size shuttles, it is designed specifically for 4 inch bobbins and delicate projects.
   imgCard: "@/images/Mini.png"
   imgMain: "@/images/Mini.png"
   imgAlt: "Mini weaving shuttle for small looms"
@@ -22,7 +22,7 @@ tabs:
 longDescription:
   title: "Compact Precision for Small Looms"
   subTitle: |
-    The Noscentia Mini Shuttle offers smooth operation and precise control for small loom projects. Its ultra-slim design is optimized for small bobbins, maintaining the same exceptional quality as our larger models.
+    The Noscentia Mini Shuttle offers smooth operation and precise control for small loom projects. Its ultra-slim design is optimized for 4 inch bobbins, maintaining the same exceptional quality as our larger models.
   btnTitle: "Contact sales to learn more"
   btnURL: "/contact"
 descriptionList:
@@ -31,7 +31,7 @@ descriptionList:
   - title: "High-Quality Build"
     subTitle: "Constructed with the same premium materials as our full-size shuttles for lasting performance."
   - title: "Small Bobbin Compatibility"
-    subTitle: "Designed exclusively for use with small bobbins, ensuring a perfect fit and smooth weaving."
+    subTitle: "Designed exclusively for use with 4 inch bobbins, ensuring a perfect fit and smooth weaving."
 specificationsLeft:
   - title: "Material Composition"
     subTitle: "3D-printed with durable, lightweight material for optimal handling and reduced fatigue."

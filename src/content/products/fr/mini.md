@@ -5,7 +5,7 @@ price: "[35$]"
 main:
   id: 1
   content: |
-    Découvrez la navette Mini de Noscentia — l’outil idéal pour un tissage fluide et précis sur de petits métiers à tisser. Fabriquée avec les mêmes matériaux de haute qualité que nos navettes pleine grandeur, elle est conçue spécialement pour les petites bobines et les projets délicats.
+    Découvrez la navette Mini de Noscentia — l’outil idéal pour un tissage fluide et précis sur de petits métiers à tisser. Fabriquée avec les mêmes matériaux de haute qualité que nos navettes pleine grandeur, elle est conçue spécialement pour les  bobines de 4 pouces et les projets délicats.
   imgCard: "@/images/Mini.png"
   imgMain: "@/images/Mini.png"
   imgAlt: "Petite navette de tissage pour petits métiers"
@@ -22,7 +22,7 @@ tabs:
 longDescription:
   title: "Précision compacte pour petits métiers"
   subTitle: |
-    La navette Mini de Noscentia offre une manipulation fluide et un contrôle précis pour les projets sur petits métiers. Son design ultra-mince est optimisé pour les petites bobines, tout en conservant la même qualité exceptionnelle que nos modèles plus grands.
+    La navette Mini de Noscentia offre une manipulation fluide et un contrôle précis pour les projets sur petits métiers. Son design ultra-mince est optimisé pour les  bobines de 4 pouces, tout en conservant la même qualité exceptionnelle que nos modèles plus grands.
   btnTitle: "Contacter les ventes pour en savoir plus"
   btnURL: "/fr/contact"
 descriptionList:
@@ -31,12 +31,12 @@ descriptionList:
   - title: "Fabrication de haute qualité"
     subTitle: "Fabriquée avec les mêmes matériaux haut de gamme que nos navettes pleine grandeur pour une performance durable."
   - title: "Compatibilité petites bobines"
-    subTitle: "Conçue exclusivement pour les petites bobines, garantissant un ajustement parfait et un tissage fluide."
+    subTitle: "Conçue exclusivement pour les bobines de 4 pouces, garantissant un ajustement parfait et un tissage fluide."
 specificationsLeft:
   - title: "Composition du matériau"
     subTitle: "Imprimée en 3D avec un matériau léger et durable pour une manipulation optimale et une fatigue réduite."
   - title: "Mecanisme"
-    subTitle: "Le loquet magnétique garantit que vos bobbine restent toujours bien en place."
+    subTitle: "Le loquet magnétique garantit que vos bobines restent toujours bien en place."
   - title: "Réversibilité"
     subTitle: "Conception réversible offrant une orientation flexible et une utilisation ergonomique."
   - title: "Dimensions"

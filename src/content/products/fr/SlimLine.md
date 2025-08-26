@@ -5,7 +5,7 @@ price: "[40$]"
 main:
   id: 2
   content: |
-    Découvrez la navette de tissage Slim de Noscentia — l’outil idéal pour un tissage fluide et précis. Cette navette ultra-mince assure une manipulation sans effort et est compatible avec toutes les bobines standards. Son loquet magnétique sécurisé permet un chargement rapide. Bien qu’elle ne soit pas réversible, sa conception compacte offre une excellente prise en main pour les travaux détaillés.
+    Découvrez la navette de tissage Slim de Noscentia — l’outil idéal pour un tissage fluide et précis. Cette navette ultra-mince assure une manipulation sans effort et est compatible avec toutes les bobines standards jusqu’à 6 pouces. Son loquet magnétique sécurisé permet un chargement rapide. Bien qu’elle ne soit pas réversible, sa conception compacte offre une excellente prise en main et un contrôle optimal pour les travaux détaillés.
   imgCard: "@/images/SlimLine.png"
   imgMain: "@/images/SlimLine.png"
   imgAlt: "Boîtes de présentation avec assortiment de vis"
@@ -22,14 +22,14 @@ tabs:
 longDescription:
   title: "Navette de tissage ultra-mince"
   subTitle: |
-    La navette Slim de Noscentia offre des performances fluides et précises pour les artisans et passionnés de tissage. Son profil ultra-mince, sa compatibilité universelle avec les bobines et son loquet magnétique sécurisé en font un outil idéal pour les travaux détaillés.
+    La navette Slim de Noscentia offre une performance fluide et précise, idéale pour les artisans comme pour les passionnés de tissage. Son profil ultra-mince, sa compatibilité avec les bobines standards jusqu’à 6 pouces et son loquet magnétique sécurisé en font l’outil parfait pour les travaux détaillés.
   btnTitle: "Contacter les ventes pour en savoir plus"
   btnURL: "/fr/contact"
 descriptionList:
   - title: "Conception mince"
     subTitle: "Son profil ultra-mince permet une manipulation fluide et un passage facile dans les sheds étroits."
   - title: "Compatibilité universelle"
-    subTitle: "Fonctionne avec toutes les bobines standards pour une grande flexibilité."
+    subTitle: "Fonctionne avec toutes les bobines jusqu’à 6 pouces pour une grande flexibilité."
   - title: "Loquet magnétique"
     subTitle: "Le loquet magnétique sécurisé permet un changement de bobine rapide et facile."
 specificationsLeft:

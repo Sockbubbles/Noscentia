@@ -5,7 +5,7 @@ price: "[40$]"
 main:
   id: 2
   content: |
-    Introducing the Noscentia Slim Weaving Shuttle – the ideal tool for smooth and precise weaving. This ultra-slim shuttle ensures effortless operation and is compatible with all standard bobbins. Its secure magnetic latch allows for quick loading, and while it is not reversible, its compact design offers exceptional handling and control for detailed work.
+    Introducing the Noscentia Slim Weaving Shuttle – the ideal tool for smooth and precise weaving. This ultra-slim shuttle ensures effortless operation and is compatible with all standard bobbins up to 6 inches. Its secure magnetic latch allows for quick loading, and while it is not reversible, its compact design offers exceptional handling and control for detailed work.
   imgCard: "@/images//SlimLine.png"
   imgMain: "@/images/SlimLine.png"
   imgAlt: "Navettes"
@@ -29,7 +29,7 @@ descriptionList:
   - title: "Slim Design"
     subTitle: "Super slim profile allows for smooth operation and easy handling through tight sheds."
   - title: "Universal Compatibility"
-    subTitle: "Works with all standard bobbins for flexibility across weaving projects."
+    subTitle: "Works with all standard bobbins up to 6 inches for flexibility across weaving projects."
   - title: "Magnetic Latch"
     subTitle: "Secure magnetic latch enables quick and easy bobbin changes."
 specificationsLeft:

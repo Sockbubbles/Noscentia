@@ -5,7 +5,7 @@ price: "[40$]"
 main:
   id: 3
   content: |
-    Découvrez la navette réversible Noscentia — un outil haut de gamme conçu pour un tissage fluide et précis. Sa conception réversible offre une grande flexibilité aux artisans. Légèrement plus grande que notre modèle mince, elle garantit un excellent contrôle et une qualité remarquable.
+    Découvrez la navette réversible Noscentia — un outil haut de gamme pensé pour un tissage fluide et précis. Grâce à sa conception réversible, elle offre une flexibilité optimale aux artisans et passionnés. Légèrement plus grande que notre modèle Slim, elle assure un contrôle exceptionnel et une qualité remarquable à chaque projet.
   imgCard: "@/images/NexGenNew.png"
   imgMain: "@/images/NexGen.png"
   imgAlt: "Navette de tissage réversible pour artisans"
@@ -31,7 +31,7 @@ descriptionList:
   - title: "Format confortable"
     subTitle: "Profil légèrement plus grand offrant une bonne prise en main tout en maintenant une glisse fluide."
   - title: "Compatibilité universelle"
-    subTitle: "Compatible avec les bobines standards pour une grande variété de projets de tissage."
+    subTitle: "Fonctionne avec toutes les bobines jusqu’à 6 pouces pour une grande flexibilité."
 specificationsLeft:
   - title: "Composition du matériau"
     subTitle: "Imprimée en 3D avec un matériau léger et durable pour une utilisation prolongée."

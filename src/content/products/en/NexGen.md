@@ -31,7 +31,7 @@ descriptionList:
   - title: "Comfortable Size"
     subTitle: "Slightly larger profile provides solid handling while maintaining smooth operation."
   - title: "Universal Bobbin Compatibility"
-    subTitle: "Compatible with standard bobbins for a variety of weaving projects."
+    subTitle: "Compatible with standard bobbins up to 6 inches, perfect for a variety of weaving projects."
 specificationsLeft:
   - title: "Material Composition"
     subTitle: "3D-printed from durable, lightweight material for long-lasting use."
