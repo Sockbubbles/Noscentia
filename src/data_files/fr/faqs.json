@@ -1,29 +1,29 @@
 {
-  "subTitle": "Posez-nous toutes vos questions sur notre marque et nos produits, et obtenez des réponses factuelles.",
+  "subTitle": "Posez-nous toutes vos questions sur Noscentia et nos outils de tissage, et obtenez des réponses claires et précises.",
   "faqs": [
     {
-      "question": "Quels types d'outils sont inclus dans le Kit de Démarrage?",
-      "answer": "Le Kit de Démarrage comprend des outils à main et électriques essentiels pour différents projets de bricolage, notamment des marteaux, des perceuses, des tournevis et une variété de fixations. C'est une sélection soigneusement élaborée pour aider les débutants et les bricoleurs expérimentés à aborder la plupart des tâches d'amélioration de l'habitat."
+      "question": "Quels types d’outils sont inclus dans le Kit de Démarrage Noscentia?",
+      "answer": "Le Kit de Démarrage comprend des navettes légères, des canettes, ainsi que d’autres accessoires essentiels pour commencer à tisser. C’est une sélection soigneusement pensée pour aider les débutants comme les tisserands expérimentés à se lancer facilement."
     },
     {
-      "question": "Puis-je passer du Kit de Démarrage à la Boîte à Outils Professionnelle?",
-      "answer": "Absolument ! Vous pouvez passer à la Boîte à Outils Professionnelle à tout moment pour accéder à une gamme plus large d'outils de haute qualité, bénéficier d'un support client prioritaire et recevoir un contenu exclusif. Contactez notre équipe de support pour une transition sans problème."
+      "question": "Puis-je passer du Kit de Démarrage à des outils professionnels Noscentia?",
+      "answer": "Oui, absolument ! Vous pouvez évoluer vers notre gamme professionnelle à tout moment. Celle-ci inclut des navettes de formats variés, des bobines supplémentaires et des outils conçus pour optimiser vos projets de tissage, avec un accompagnement plus personnalisé."
     },
     {
-      "question": "Quels sont les rabais disponibles pour les commandes en gros via le plan Boîte à Outils Professionnelle?",
-      "answer": "Les membres de la Boîte à Outils Professionnelle ont droit à des rabais exclusifs sur les commandes en gros, dont le pourcentage peut varier en fonction du volume de la commande. Contactez-nous pour discuter de vos besoins, et nous vous fournirons une structure de rabais personnalisée."
+      "question": "Offrez-vous des rabais pour les commandes en gros?",
+      "answer": "Oui, Noscentia propose des rabais exclusifs pour les commandes en grande quantité. Le pourcentage dépend du volume et des types d’outils commandés. Contactez-nous pour obtenir une structure de prix adaptée à vos besoins."
     },
     {
-      "question": "À quoi puis-je m'attendre en termes de support client?",
-      "answer": "Tous nos clients bénéficient d'un support par e-mail dédié. Avec le Kit de Démarrage, vous recevrez notre support standard, tandis que le plan Boîte à Outils Professionnelle vous mettra à niveau vers un support prioritaire, ce qui signifie des temps de réponse plus rapides et une assistance spécialisée."
+      "question": "Quel type de support client est offert?",
+      "answer": "Tous nos clients bénéficient d’un support par e-mail dédié. Avec le Kit de Démarrage, vous aurez accès à notre support standard, tandis que les commandes plus avancées bénéficient d’un support prioritaire avec des temps de réponse plus rapides et des conseils spécialisés."
     },
     {
-      "question": "À quelle fréquence sont mises à jour les ressources en ligne et les tutoriels?",
-      "answer": "Nous mettons régulièrement à jour nos ressources en ligne et nos tutoriels pour refléter les dernières tendances en matière de bricolage et de construction, ainsi que les introductions de nouveaux outils et techniques. Notre matériel vise à être complet et convivial pour tous les niveaux de compétence."
+      "question": "À quelle fréquence mettez-vous à jour vos ressources et guides de tissage?",
+      "answer": "Nous enrichissons régulièrement nos ressources et tutoriels en ligne pour refléter les nouvelles techniques de tissage et l’introduction de nouveaux outils Noscentia. Nos guides sont conçus pour être accessibles, clairs et utiles à tous les niveaux de compétence."
     },
     {
-      "question": "ScrewFast propose-t-il des services pour les grands projets de construction?",
-      "answer": "Oui, nos Solutions Entreprise sont conçues pour les grandes entreprises ayant besoin de services complets. Nous fournissons des consultations, de la planification et de l'approvisionnement en outils et matériaux de haute qualité, ainsi que des solutions de personnel pour des besoins de construction importants. Contactez-nous pour un devis personnalisé."
+      "question": "Noscentia propose-t-elle des solutions pour les ateliers ou centres textiles?",
+      "answer": "Oui, Noscentia collabore avec des ateliers, des écoles et des centres textiles. Nous offrons des solutions adaptées pour équiper plusieurs tisserands à la fois, avec des navettes et accessoires durables, ainsi que des conseils pour optimiser la production. Contactez-nous pour un devis personnalisé."
     }
   ]
 }

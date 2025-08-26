@@ -1,19 +1,20 @@
 {
   "title": "Tarification Simple et Transparente",
-  "subTitle": "Augmentez l'efficacité avec les plans clairs et axés sur la valeur de ScrewFast.",
+  "subTitle": "Améliorez votre expérience de tissage avec les plans clairs et accessibles de Noscentia.",
   "badge": "Meilleure valeur",
-  "thirdOption": "Solutions Entreprise?",
+  "thirdOption": "Solutions pour Ateliers?",
   "btnText": "Obtenez un Devis Personnalisé",
 
   "starterKit": {
     "name": "Kit de Démarrage",
-    "description": "Meilleure option pour les projets de bricolage",
+    "description": "Parfait pour découvrir ou débuter le tissage",
     "price": "$49",
     "cents": ".00",
-    "billingFrequency": "USD / mensuel",
+    "billingFrequency": "USD / unique",
     "features": [
-      "Outils matériels essentiels",
-      "Accès aux guides et tutoriels",
+      "Navettes légères et durables",
+      "Canettes et accessoires de base",
+      "Accès aux guides et tutoriels Noscentia",
       "Support standard"
     ],
     "purchaseBtnTitle": "Obtenez le Kit de Démarrage",
@@ -21,18 +22,19 @@
   },
 
   "professionalToolbox": {
-    "name": "Boîte à Outils Professionnelle",
-    "description": "Idéale pour les utilisations à grande échelle",
+    "name": "Collection Professionnelle",
+    "description": "Idéale pour les projets de tissage avancés et réguliers",
     "price": "$89",
     "cents": ".00",
-    "billingFrequency": "USD / mensuel",
+    "billingFrequency": "USD / unique",
     "features": [
-      "Sélection d'outils premium",
+      "Sélection d’outils premium Noscentia",
+      "Navettes de formats variés",
       "Support prioritaire",
-      "Contenu et offres exclusifs",
-      "Remises sur les commandes en gros"
+      "Ressources et contenus exclusifs",
+      "Rabais sur les commandes en gros"
     ],
-    "purchaseBtnTitle": "Obtenez la Boîte à Outils Professionnelle",
+    "purchaseBtnTitle": "Obtenez la Collection Professionnelle",
     "purchaseLink": "#"
   }
 }
