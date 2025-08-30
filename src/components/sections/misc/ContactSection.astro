@@ -27,7 +27,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
       </p>
     </div>
 
-    <div class="mt-12 grid items-center gap-6 -2 ">
+    <div class="mt-12 grid items-center gap-6">
       <div class="flex flex-col rounded-xl p-4 sm:p-6 lg:p-8">
         <h2
           class="mb-8 text-xl font-bold text-neutral-700 dark:text-neutral-300"
@@ -39,31 +39,29 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
           <!-- FormSubmit options -->
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="table" />
-          <!-- Honeypot (blocks bots that fill every field) -->
-          <input type="text" name="_honey" style="display:none" />
 
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
                 id="hs-firstname-contacts"
                 label="First Name"
-                name="hs-firstname-contacts"
+                name="first_name"
               />
               <TextInput
                 id="hs-lastname-contacts"
                 label="Last Name"
-                name="hs-lastname-contacts"
+                name="last_name"
               />
             </div>
 
-            <!-- These custom components keep their original props to avoid TS errors -->
-            <EmailContactInput id="hs-email-contacts" />
-            <PhoneInput id="hs-phone-number" />
+            <!-- Ensure these components pass through name to <input> -->
+            <EmailContactInput id="hs-email-contacts" name="email" />
+            <PhoneInput id="hs-phone-number" name="phone" />
 
             <TextAreaInput
               id="hs-about-contacts"
               label="Details"
-              name="hs-about-contacts"
+              name="message"
             />
           </div>
 
@@ -86,7 +84,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
               content="Prefer the written word? Drop us an email at"
               isLinkVisible={true}
               linkTitle="info@noscentia.com"
-              linkURL="#"
+              linkURL="mailto:info@noscentia.com"
             />
           </div>
         </form>
