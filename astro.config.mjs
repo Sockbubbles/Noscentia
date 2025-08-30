@@ -9,7 +9,7 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   // https://docs.astro.build/en/guides/images/#authorizing-remote-images
-  site: "https://Noscentia.com",
+  site: "https://noscentia.com",
   image: {
     domains: ["images.unsplash.com"],
   },
