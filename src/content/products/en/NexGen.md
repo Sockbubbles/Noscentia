@@ -24,7 +24,7 @@ longDescription:
   subTitle: |
     The Noscentia Reversible Shuttle combines a robust reversible design with smooth operation, offering precision and comfort for artisans. Slightly larger than our slim model, it is perfect for projects requiring flexible handling and durability.
   btnTitle: "Contact sales to learn more"
-  btnURL: "/contact"
+  btnURL: "/en/contact"
 descriptionList:
   - title: "Reversible Design"
     subTitle: "Use in either orientation for added flexibility and ease of handling."

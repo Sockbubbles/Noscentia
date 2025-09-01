@@ -24,7 +24,7 @@ longDescription:
   subTitle: |
     The Noscentia Mini Shuttle offers smooth operation and precise control for small loom projects. Its ultra-slim design is optimized for 4 inch bobbins, maintaining the same exceptional quality as our larger models.
   btnTitle: "Contact sales to learn more"
-  btnURL: "/contact"
+  btnURL: "/en/contact"
 descriptionList:
   - title: "Slim and Compact"
     subTitle: "Perfectly sized for small looms, allowing easy passage through tight sheds with precision."

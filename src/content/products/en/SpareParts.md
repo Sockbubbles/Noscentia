@@ -24,7 +24,7 @@ longDescription:
   subTitle: |
     Noscentia Spare Parts ensure your weaving tools remain in top condition. All parts are made to original specifications for seamless replacement, maintaining smooth operation and extending the life of your tools.
   btnTitle: "Contact sales to order the parts you need"
-  btnURL: "/contact"
+  btnURL: "/en/contact"
 descriptionList:
   - title: "Precision Fit"
     subTitle: "All spare parts are engineered for exact compatibility with Noscentia weaving shuttles."

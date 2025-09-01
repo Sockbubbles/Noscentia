@@ -24,7 +24,7 @@ longDescription:
   subTitle: |
     The Noscentia Slim Weaving Shuttle offers smooth, precise performance for artisans and weaving enthusiasts. Its ultra-slim profile, universal bobbin compatibility, and secure magnetic latch make it ideal for detailed work.
   btnTitle: "Contact sales to learn more"
-  btnURL: "/contact"
+  btnURL: "/en/contact"
 descriptionList:
   - title: "Slim Design"
     subTitle: "Super slim profile allows for smooth operation and easy handling through tight sheds."
