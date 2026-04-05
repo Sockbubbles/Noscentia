@@ -16,9 +16,6 @@ tabs:
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Spécifications"
-  - id: "tabs-with-card-item-3"
-    dataTab: "#tabs-with-card-3"
-    title: "Plans techniques"
 longDescription:
   title: "Précision compacte pour petits métiers"
   subTitle: |
@@ -49,7 +46,4 @@ tableData:
       - ["Hauteur (mm)", "25"]
       - ["Poids (g)", "70"]
       - ["Matériau", "Plastique PLA"]
-blueprints:
-  first: "@/images/MiniBluePrint1.png"
-  second: "@/images/MiniBluePrint2.png"
 ---

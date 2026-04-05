@@ -16,9 +16,6 @@ tabs:
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Specifications"
-  - id: "tabs-with-card-item-3"
-    dataTab: "#tabs-with-card-3"
-    title: "Blueprints"
 longDescription:
   title: "Compact Precision for Small Looms"
   subTitle: |
@@ -49,7 +46,4 @@ tableData:
       - ["Height (mm)", "25"]
       - ["Weight (g)", "70"]
       - ["Material", "PLA Plastic"] 
-blueprints:
-  first: "@/images/MiniBluePrint1.png"
-  second: "@/images/MiniBluePrint2.png"   
 ---

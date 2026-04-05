@@ -16,9 +16,6 @@ tabs:
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Prices"
-  - id: "tabs-with-card-item-3"
-    dataTab: "#tabs-with-card-3"
-    title: "Blueprints"
 longDescription:
   title: "Maintain Performance and Longevity"
   subTitle: |
@@ -49,7 +46,4 @@ tableData:
       - ["Side panels", "7.50$ per side"]
       - ["Hinge", "3$"]
       - ["Post", "3$"]
-blueprints:
-  first: "@/images/SparePartsBluePrint.png"
-  
 ---

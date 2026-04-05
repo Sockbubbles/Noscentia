@@ -16,9 +16,6 @@ tabs:
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Specifications"
-  - id: "tabs-with-card-item-3"
-    dataTab: "#tabs-with-card-3"
-    title: "Blueprints"
 longDescription:
   title: "Ultra-Slim Weaving Shuttle"
   subTitle: |
@@ -49,7 +46,4 @@ tableData:
       - ["Height (mm)", "35"]
       - ["Weight (g)", "105"]
       - ["Material", "PLA Plastic"]
-blueprints:
-  first: "@/images/SlimLineBlueprint1.png"
-  second: "@/images/SlimLineBluePrint2.png"
 ---

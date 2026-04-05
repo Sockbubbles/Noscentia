@@ -16,9 +16,6 @@ tabs:
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Specifications"
-  - id: "tabs-with-card-item-3"
-    dataTab: "#tabs-with-card-3"
-    title: "Blueprints"
 longDescription:
   title: "Versatile and Reliable"
   subTitle: |
@@ -49,7 +46,4 @@ tableData:
       - ["Height (mm)", "42"]
       - ["Weight (g)", "115"]
       - ["Material", "PLA Plastic"]
-blueprints:
-  first: "@/images/NexGenBluePrint1.png"
-  second: "@/images/NexGenBluePrint2.png"  
 ---

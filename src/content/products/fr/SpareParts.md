@@ -16,9 +16,6 @@ tabs:
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Tarifs"
-  - id: "tabs-with-card-item-3"
-    dataTab: "#tabs-with-card-3"
-    title: "Plans techniques"
 longDescription:
   title: "Maintenir la performance et la durabilité"
   subTitle: |
@@ -49,7 +46,4 @@ tableData:
       - ["Panneaux latéraux", "7,50$ par côté"]
       - ["Charnière", "3$"]
       - ["Pivot", "3$"]
-blueprints:
-  first: "@/images/SparePartsBluePrint.png"
-  
 ---

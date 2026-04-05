@@ -16,9 +16,6 @@ tabs:
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Spécifications"
-  - id: "tabs-with-card-item-3"
-    dataTab: "#tabs-with-card-3"
-    title: "Plans techniques"
 longDescription:
   title: "Polyvalente et fiable"
   subTitle: |
@@ -49,7 +46,4 @@ tableData:
       - ["Hauteur (mm)", "42"]
       - ["Poids (g)", "115"]
       - ["Matériau", "Plastique PLA"]
-blueprints:
-  first: "@/images/NexGenBluePrint1.png"
-  second: "@/images/NexGenBluePrint2.png"  
 ---
