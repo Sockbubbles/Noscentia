@@ -1,21 +1,32 @@
 ---
-// Import the necessary dependencies.
-import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
 import ContactIconBlock from "@components/ui/blocks/ContactIconBlock.astro";
 import TextInput from "@components/ui/forms/input/TextInput.astro";
 import EmailContactInput from "@components/ui/forms/input/EmailContactInput.astro";
 import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
 import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 
-// Define the variables that will be used in this component
-const title: string = "Contact us";
-const subTitle: string =
-  "Interested in placing an order or have questions about our offerings? Contact us";
-const formTitle: string = "Please fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+const { selectedProduct = "", intent = "" } = Astro.props;
+const isOrderIntent = intent === "order" || Boolean(selectedProduct);
+const title: string = isOrderIntent ? "Request a Quote" : "Contact us";
+const subTitle: string = isOrderIntent
+  ? "Tell us what you would like to order, including multiple products if needed, and we will reply with availability, shipping details, and next steps."
+  : "Interested in placing an order or have questions about our offerings? Contact us";
+const formTitle: string = isOrderIntent
+  ? "To get a quote, fill out the form below"
+  : "To get a quote, fill out the form below";
+const formSubTitle: string = isOrderIntent
+  ? "We usually reply within 1 business day."
+  : "We'll get back to you in 1-2 business days.";
+const messageValue = selectedProduct
+  ? `Hi Noscentia, I would like to order the ${selectedProduct}. I may also be interested in additional products. Please let me know pricing, availability, and shipping details.`
+  : "";
+const subjectLine = selectedProduct
+  ? `Order inquiry - ${selectedProduct}`
+  : isOrderIntent
+    ? "Order inquiry"
+    : "Website contact request";
 ---
 
-<!-- Contact Us -->
 <section class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
   <div class="mx-auto max-w-2xl lg:max-w-5xl">
     <div class="text-center">
@@ -29,49 +40,70 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
       </p>
     </div>
 
-    <div class="mt-12 grid items-center gap-6 -2 ">
+    <div class="mt-12 grid items-center gap-6">
       <div class="flex flex-col rounded-xl p-4 sm:p-6 lg:p-8">
-        <h2
-          class="mb-8 text-xl font-bold text-neutral-700 dark:text-neutral-300"
-        >
-          {formTitle}
-        </h2>
+        <div class="mb-8 flex flex-col gap-3">
+          <h2 class="text-xl font-bold text-neutral-700 dark:text-neutral-300">
+            {formTitle}
+          </h2>
+          {isOrderIntent && (
+            <div class="rounded-lg border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm text-neutral-600 dark:border-neutral-700 dark:bg-neutral-800/60 dark:text-neutral-300">
+              Share the products you want, the quantities, and your city. We will follow up with the best shipping and payment option manually.
+            </div>
+          )}
+        </div>
 
         <form action="https://formsubmit.co/info@noscentia.com" method="POST">
-  
-            <input type="hidden" name="_captcha" value="false">
-   
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value={subjectLine} />
+          <input type="hidden" name="Intent" value={isOrderIntent ? "Order inquiry" : "General inquiry"} />
 
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <TextInput id="FirstName" label="First Name" name="FirstName" />
+              <TextInput id="LastName" label="Last Name" name="LastName" />
+            </div>
+            <EmailContactInput id="email" name="Email" />
+            <PhoneInput id="phone" name="Phone" />
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
-                id="FirstName"
-                label="First Name"
-                name="FirstName"
+                id="Product"
+                label="Product(s)"
+                name="Product"
+                value={selectedProduct}
+                placeholder="List one or more products"
               />
               <TextInput
-                id="LastName"
-                label="Last Name"
-                name="LastName"
+                id="Quantity"
+                label="Quantity"
+                name="Quantity"
+                placeholder="How many would you like?"
+                type="number"
               />
             </div>
-            <EmailContactInput id="email" />
-            <PhoneInput id="phone" />
+            <TextInput
+              id="City"
+              label="City"
+              name="City"
+              placeholder="What city are we delivering to?"
+            />
             <TextAreaInput
               id="Message"
               label="Message"
               name="Message"
+              value={messageValue}
+              placeholder="Tell us what you need, your timeline, and any shipping details."
+              rows="5"
             />
           </div>
 
           <div class="mt-4 grid">
             <button
-  type="submit"
-  class="inline-flex w-full items-center justify-center gap-x-2 rounded-lg bg-blue-600 px-4 py-3 text-sm font-bold text-white hover:bg-blue-700 transition"
->
-  Send Message
-</button>
-
+              type="submit"
+              class="inline-flex w-full items-center justify-center gap-x-2 rounded-lg bg-blue-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-blue-700"
+            >
+              {isOrderIntent ? "Send Order Request" : "Send Message"}
+            </button>
           </div>
 
           <div class="mt-3 text-center">

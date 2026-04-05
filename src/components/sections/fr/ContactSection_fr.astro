@@ -1,21 +1,32 @@
 ---
-// Import the necessary dependencies.
-import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
 import ContactIconBlock from "@components/ui/blocks/ContactIconBlock.astro";
 import TextInput from "@components/ui/forms/input/TextInput.astro";
 import EmailContactInput from "@components/ui/forms/input/EmailContactInput.astro";
 import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
 import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 
-// Define the variables that will be used in this component
-const title: string = "Contactez-nous";
-const subTitle: string =
-  "Vous souhaitez passer une commande ou avez des questions sur nos produits ? Contactez-nous";
-const formTitle: string = "Veuillez remplir le formulaire ci-dessous";
-const formSubTitle: string = "Nous vous répondrons sous 1 à 2 jours ouvrables.";
+const { selectedProduct = "", intent = "" } = Astro.props;
+const isOrderIntent = intent === "order" || Boolean(selectedProduct);
+const title: string = isOrderIntent ? "Demander un devis" : "Contactez-nous";
+const subTitle: string = isOrderIntent
+  ? "Dites-nous ce que vous souhaitez commander, y compris plusieurs produits si necessaire, et nous vous repondrons avec la disponibilite, les details d'expedition et la suite."
+  : "Vous souhaitez passer une commande ou avez des questions sur nos produits ? Contactez-nous";
+const formTitle: string = isOrderIntent
+  ? "Pour obtenir un devis, remplissez le formulaire ci-dessous"
+  : "Pour obtenir un devis, remplissez le formulaire ci-dessous";
+const formSubTitle: string = isOrderIntent
+  ? "Nous repondons generalement sous 1 jour ouvrable."
+  : "Nous vous repondrons sous 1 a 2 jours ouvrables.";
+const messageValue = selectedProduct
+  ? `Bonjour Noscentia, je souhaite commander le produit ${selectedProduct}. Je pourrais aussi etre interesse par d'autres produits. Merci de me communiquer le prix, la disponibilite et les details d'expedition.`
+  : "";
+const subjectLine = selectedProduct
+  ? `Demande de commande - ${selectedProduct}`
+  : isOrderIntent
+    ? "Demande de commande"
+    : "Demande de contact depuis le site";
 ---
 
-<!-- Contact Us -->
 <section class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
   <div class="mx-auto max-w-2xl lg:max-w-5xl">
     <div class="text-center">
@@ -29,49 +40,70 @@ const formSubTitle: string = "Nous vous répondrons sous 1 à 2 jours ouvrables.
       </p>
     </div>
 
-    <div class="mt-12 grid items-center gap-6 -2 ">
+    <div class="mt-12 grid items-center gap-6">
       <div class="flex flex-col rounded-xl p-4 sm:p-6 lg:p-8">
-        <h2
-          class="mb-8 text-xl font-bold text-neutral-700 dark:text-neutral-300"
-        >
-          {formTitle}
-        </h2>
+        <div class="mb-8 flex flex-col gap-3">
+          <h2 class="text-xl font-bold text-neutral-700 dark:text-neutral-300">
+            {formTitle}
+          </h2>
+          {isOrderIntent && (
+            <div class="rounded-lg border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm text-neutral-600 dark:border-neutral-700 dark:bg-neutral-800/60 dark:text-neutral-300">
+              Indiquez les produits souhaites, les quantites et votre ville. Nous vous proposerons ensuite la meilleure option d'expedition et de paiement manuelle.
+            </div>
+          )}
+        </div>
 
         <form action="https://formsubmit.co/info@noscentia.com" method="POST">
-  
-            <input type="hidden" name="_captcha" value="false">
-   
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value={subjectLine} />
+          <input type="hidden" name="Intent" value={isOrderIntent ? "Demande de commande" : "Demande generale"} />
 
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <TextInput id="FirstName" label="Prenom" name="FirstName" />
+              <TextInput id="LastName" label="Nom" name="LastName" />
+            </div>
+            <EmailContactInput id="email" name="Email" placeholder="E-mail" />
+            <PhoneInput id="phone-number" name="Telephone" />
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
-                id="FirstName"
-                label="Prénom"
-                name="FirstName"
+                id="Product"
+                label="Produit(s)"
+                name="Product"
+                value={selectedProduct}
+                placeholder="Listez un ou plusieurs produits"
               />
               <TextInput
-                id="LastName"
-                label="Nom"
-                name="LastName"
+                id="Quantity"
+                label="Quantite"
+                name="Quantity"
+                placeholder="Combien en souhaitez-vous ?"
+                type="number"
               />
             </div>
-            <EmailContactInput id="email" />
-            <PhoneInput id="phone-number" />
+            <TextInput
+              id="City"
+              label="Ville"
+              name="City"
+              placeholder="Dans quelle ville livrons-nous ?"
+            />
             <TextAreaInput
               id="Message"
               label="Message"
               name="Message"
+              value={messageValue}
+              placeholder="Precisez votre besoin, le delai souhaite et les informations de livraison."
+              rows="5"
             />
           </div>
 
           <div class="mt-4 grid">
             <button
-  type="submit"
-  class="inline-flex w-full items-center justify-center gap-x-2 rounded-lg bg-blue-600 px-4 py-3 text-sm font-bold text-white hover:bg-blue-700 transition"
->
-  Envoyer le message
-</button>
-
+              type="submit"
+              class="inline-flex w-full items-center justify-center gap-x-2 rounded-lg bg-blue-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-blue-700"
+            >
+              {isOrderIntent ? "Envoyer la demande" : "Envoyer le message"}
+            </button>
           </div>
 
           <div class="mt-3 text-center">
@@ -81,7 +113,7 @@ const formSubTitle: string = "Nous vous répondrons sous 1 à 2 jours ouvrables.
 
             <ContactIconBlock
               heading="Contactez-nous par courriel"
-              content="Vous préférez l’écrit ? Envoyez-nous un courriel à"
+              content="Vous preferez l'ecrit ? Envoyez-nous un courriel a"
               isLinkVisible={true}
               linkTitle="info@noscentia.com"
               linkURL="mailto:info@noscentia.com"

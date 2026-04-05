@@ -19,7 +19,7 @@ tabs:
 longDescription:
   title: "Versatile and Reliable"
   subTitle: |
-    The Noscentia Reversible Shuttle combines a robust reversible design with smooth operation, offering precision and comfort for artisans. Slightly larger than our slim model, it is perfect for projects requiring flexible handling and durability.
+    The Noscentia Reversible Shuttle combines a thicker, more robust body with smooth operation, offering precision and comfort for artisans. Compared with the SlimLine, the extra thickness allows full reversibility, making it the better fit if you want to weave in either orientation.
   btnTitle: "Contact sales to learn more"
   btnURL: "/en/contact"
 descriptionList:
